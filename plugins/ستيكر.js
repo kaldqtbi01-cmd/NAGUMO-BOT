@@ -4,12 +4,10 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import ffmpeg from 'fluent-ffmpeg'
-import ffmpegStatic from 'ffmpeg-static'
 
-// استخدام ffmpeg الثابت لو موجود
-if (ffmpegStatic) {
-    ffmpeg.setFfmpegPath(ffmpegStatic)
-}
+
+// استخدام FFmpeg المثبت في Termux
+ffmpeg.setFfmpegPath('/data/data/com.termux/files/usr/bin/ffmpeg')
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const tmpDir = path.join(__dirname, '../tmp')

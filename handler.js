@@ -551,7 +551,7 @@ global.dfail = (type, m, conn) => {
     const botName = global.botName || "𝐂𝐇𝐄𝐎𝐍 𝐁𝐎𝐓"
     const zarf = global.zarf || "~*『✦▬▬▬✦┇• 🪻 •┇✦▬▬▬✦』*~"
     const msg = {
-        rowner:   `${zarf}\n🪻 *${botName}*\n${zarf}\n\n❌ هذا الأمر للمطور بس يا حبيبي`,
+        rowner:   `${zarf}\n🪻 *${botName}*\n${zarf}\n\n🪻 هذا الأمر خاص بالمطور، يا فضولي 😹`,
         owner:    `${zarf}\n🪻 *${botName}*\n${zarf}\n\n❌ هذا الأمر للمطور بس ما ينفعك`,
         mods:     `${zarf}\n🪻 *${botName}*\n${zarf}\n\n❌ هذا الأمر لمشرفي البوت بس`,
         premium:  `${zarf}\n🪻 *${botName}*\n${zarf}\n\n⭐ هذا الأمر للمميزين، تواصل مع المطور`,

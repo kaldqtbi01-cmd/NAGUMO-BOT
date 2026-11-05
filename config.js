@@ -2,18 +2,18 @@
 
 const config = {
 
-    botName:    "𝐂𝐇𝐄𝐎𝐍 𝐁𝐎𝐓",
-    botTag:     "@CHEON",
+    botName:    "𝐅𝐋𝐎𝐍𝐀 𝐁𝐎𝐓",
+    botTag:     "@FLONA",
     botVersion: "2.0.0",
-    botDev:     "𝐋𝐎𝐘𝐃",
-    devNumber:  "4917672339436",
+    botDev:     "𝐅𝐋𝐎𝐍𝐀",
+    devNumber:  "967711002393",
 
     sessions:   "sessions",
     botNumber:  "", // رقم البوت هنا ضروري 
 
 
     owner: [
-        "4917672339436", //رقم المطور
+        "967711002393", // FLONA - المالك الأساسي
     ],
 
     ownerLid: [],
@@ -39,29 +39,29 @@ const config = {
         subHeader: (title) => `┌─「 ✦ ${title} 」`,
         tail:      `╚══════════════════════╝`,
         subTail:   `└──────────────────────`,
-        footer:    `〔 𝐂𝐇𝐄𝐎𝐍 𝐁𝐎𝐓 〕`,
+        footer:    `〔 𝐅𝐋𝐎𝐍𝐀 𝐁𝐎𝐓 〕`,
         row:       (key, val) => `│ ✦ ${key}: 〘${val}〙`,
         zarfLine:  `~*『✦▬▬▬✦┇• 🪻 •┇✦▬▬▬✦』*~`,
     },
 
     links: {
         channel: "https://whatsapp.com/channel/0029Vb6kG3s0AgW2lYD8ad1L",
-        group:   "https://chat.whatsapp.com/DSktEHhJ1c0Bn5zjVC4eBO?mode=gi_t",
+        group:   "/data/data/com.termux/files/home/NAGUMO-BOT/media/flona-logo.jpg",
         support: "https://chat.whatsapp.com/KkuYNJrg3qv1JslwoFOTUt?mode=gi_t",
         github:  "https://github.com/Loydsumer/baileys-speed",
-        dev:     "https://wa.me/4917672339436",
+        dev:     "https://wa.me/967711002393",
     },
 
     images: {
-        menu:       "https://raw.githubusercontent.com/LOYD-SOLO/uploads1/main/files/0c0e6a-1777368831455.jpg",
-        owner:      "https://raw.githubusercontent.com/LOYD-SOLO/uploads1/main/files/0c0e6a-1777368831455.jpg",
-        group:      "https://raw.githubusercontent.com/LOYD-SOLO/uploads1/main/files/0c0e6a-1777368831455.jpg",
-        economy:    "https://raw.githubusercontent.com/LOYD-SOLO/uploads1/main/files/0c0e6a-1777368831455.jpg",
-        games:      "https://raw.githubusercontent.com/LOYD-SOLO/uploads1/main/files/0c0e6a-1777368831455.jpg",
-        tools:      "https://raw.githubusercontent.com/LOYD-SOLO/uploads1/main/files/0c0e6a-1777368831455.jpg",
-        info:       "https://raw.githubusercontent.com/LOYD-SOLO/uploads1/main/files/0c0e6a-1777368831455.jpg",
-        downloader: "https://raw.githubusercontent.com/LOYD-SOLO/uploads1/main/files/0c0e6a-1777368831455.jpg",
-        ai:         "https://raw.githubusercontent.com/LOYD-SOLO/uploads1/main/files/0c0e6a-1777368831455.jpg",
+        menu:       "/data/data/com.termux/files/home/NAGUMO-BOT/media/flona-logo.jpg",
+        owner:      "/data/data/com.termux/files/home/NAGUMO-BOT/media/flona-logo.jpg",
+        group:      "/data/data/com.termux/files/home/NAGUMO-BOT/media/flona-logo.jpg",
+        economy:    "/data/data/com.termux/files/home/NAGUMO-BOT/media/flona-logo.jpg",
+        games:      "/data/data/com.termux/files/home/NAGUMO-BOT/media/flona-logo.jpg",
+        tools:      "/data/data/com.termux/files/home/NAGUMO-BOT/media/flona-logo.jpg",
+        info:       "/data/data/com.termux/files/home/NAGUMO-BOT/media/flona-logo.jpg",
+        downloader: "/data/data/com.termux/files/home/NAGUMO-BOT/media/flona-logo.jpg",
+        ai:         "/data/data/com.termux/files/home/NAGUMO-BOT/media/flona-logo.jpg",
     },
 
     

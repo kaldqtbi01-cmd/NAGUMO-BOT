@@ -1,7 +1,7 @@
 {
-  "name": "cheon-bot",
+  "name": "flona-bot",
   "version": "2.0.0",
-  "description": "𝐂𝐇𝐄𝐎𝐍 𝐁𝐎𝐓 - by 𝐋𝐎𝐘𝐃",
+  "description": "FLONA BOT - Developed and managed by FLONA",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -13,7 +13,7 @@
     "qr": "node index.js qr",
     "code": "node index.js code"
   },
-  "author": "LOYD",
+  "author": "FLONA",
   "license": "MIT",
   "dependencies": {
     "@hapi/boom": "^10.0.1",
@@ -28,7 +28,6 @@
     "cheerio": "^1.2.0",
     "discord.js": "^14.26.2",
     "elevenlabs": "^1.56.0",
-    "ffmpeg-static": "^5.2.0",
     "file-type": "^21.3.0",
     "fits-api": "0.2.0",
     "fluent-ffmpeg": "^2.1.2",
@@ -61,5 +60,13 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "allowScripts": {
+    "ffmpeg-static@5.3.0": true,
+    "protobufjs@7.6.6": true,
+    "protobufjs@6.11.6": true,
+    "sharp@0.34.5": true,
+    "sharp@0.30.7": true,
+    "lzo@0.4.11": true
   }
 }

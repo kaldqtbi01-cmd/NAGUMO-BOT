@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <radialGradient id="bg" cx="35%" cy="25%" r="85%">
+    <stop offset="0%" stop-color="#8062B8"/>
+    <stop offset="55%" stop-color="#49346F"/>
+    <stop offset="100%" stop-color="#211936"/>
+  </radialGradient>
+  <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFE5F2"/>
+    <stop offset="1" stop-color="#D99BCB"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#FFF0C9"/>
+    <stop offset="1" stop-color="#D8B875"/>
+  </linearGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1024" height="1024" rx="100" fill="url(#bg)"/>
+<circle cx="512" cy="512" r="420" fill="none" stroke="#E9C9E0" stroke-opacity=".35" stroke-width="3"/>
+<circle cx="512" cy="512" r="390" fill="none" stroke="url(#gold)" stroke-opacity=".65" stroke-width="2"/>
+<circle cx="512" cy="512" r="330" fill="#FFFFFF" opacity=".035"/>
+<g fill="url(#petal)" stroke="#FFF0F7" stroke-width="5">
+ <ellipse cx="512" cy="340" rx="58" ry="105"/>
+ <ellipse cx="512" cy="340" rx="58" ry="105" transform="rotate(60 512 512)"/>
+ <ellipse cx="512" cy="340" rx="58" ry="105" transform="rotate(120 512 512)"/>
+ <ellipse cx="512" cy="340" rx="58" ry="105" transform="rotate(180 512 512)"/>
+ <ellipse cx="512" cy="340" rx="58" ry="105" transform="rotate(240 512 512)"/>
+ <ellipse cx="512" cy="340" rx="58" ry="105" transform="rotate(300 512 512)"/>
+</g>
+<circle cx="512" cy="512" r="48" fill="url(#gold)" stroke="#FFF5DC" stroke-width="5"/>
+<g fill="#FFF2FA" opacity=".9">
+ <circle cx="245" cy="270" r="7"/><circle cx="780" cy="300" r="6"/>
+ <circle cx="220" cy="700" r="5"/><circle cx="800" cy="720" r="8"/>
+ <circle cx="350" cy="820" r="5"/><circle cx="680" cy="190" r="5"/>
+</g>
+<text x="512" y="700" text-anchor="middle" font-family="DejaVu Serif,serif" font-size="100" font-weight="bold" letter-spacing="8" fill="#FFF5FC">FLONA</text>
+<path d="M300 735 H724" stroke="url(#gold)" stroke-width="4"/>
+<text x="512" y="800" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="42" letter-spacing="15" fill="#F5D9EA">BOT</text>
+<text x="512" y="875" text-anchor="middle" font-family="DejaVu Sans,sans-serif" font-size="23" letter-spacing="5" fill="#E9D9F0">YOUR FRIENDLY ASSISTANT</text>
+</svg>

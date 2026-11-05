@@ -113,7 +113,7 @@ const __dirname = global.__dirname(import.meta.url)
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 global.prefix = new RegExp("^[#!./-]")
 
-// ألوان CHEON BOT - بنفسجي/أزرق
+// ألوان FLONA BOT - بنفسجي/أزرق
 const cheonBlue    = chalk.hex("#5B8DEF")
 const cheonPurple  = chalk.hex("#9B59B6")
 const cheonCyan    = chalk.hex("#00BCD4")
@@ -129,7 +129,7 @@ async function showCheonBanner() {
     console.log(cheonPurple("".repeat(60)))
     cfonts.say("", { font: "block", align: "center", gradient: ["#5B8DEF", "#9B59B6"] })
     cfonts.say("", { font: "console", align: "center", colors: ["#00BCD4"] })
-    console.log(cheonPurple("『 𝐂𝐇𝐄𝐎𝐍 𝐁𝐎𝐓 』"))
+    console.log(cheonPurple("『 𝐅𝐋𝐎𝐍𝐀 𝐁𝐎𝐓 』"))
     console.log(cheonPurple("".repeat(60)))
 }
 
@@ -315,7 +315,7 @@ if (!existsSync(credsPath) && (opcion === "2" || methodCode)) {
                 let codeBot = await conn.requestPairingCode(global._pairingNumber)
                 codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot
                 console.log(cheonGold( `${codeBot}`))
-                console.log(cheonPurple(`『 𝐂𝐇𝐄𝐎𝐍 𝐁𝐎𝐓 』`))
+                console.log(cheonPurple(`『 𝐅𝐋𝐎𝐍𝐀 𝐁𝐎𝐓 』`))
             } catch (e) {
                 console.log(cheonRed(`  ❌ فشل طلب الكود: ${e.message}`))
                 pairingCodeShown = false
@@ -592,4 +592,4 @@ async function isValidPhoneNumber(number) {
 process.on("uncaughtException", (err) => console.error(cheonRed("  ⚠️  " + err.message)))
 process.on("unhandledRejection", (reason) => console.error(cheonRed("  ⚠️  " + reason)))
 
-console.log(cheonGreen("\n  ✅ 𝐂𝐇𝐄𝐎𝐍 𝐁𝐎𝐓 شغّال! 🪻\n"))
+console.log(cheonGreen("\n  ✅ 𝐅𝐋𝐎𝐍𝐀 𝐁𝐎𝐓 شغّال! 🪻\n"))

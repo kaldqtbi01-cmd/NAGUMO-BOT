@@ -1,0 +1,337 @@
+plugins/تخمين.js:237:handler.command = /^(تخمين|guess|تلميح|استسلم)$/i
+plugins/تخمين.js:238:handler.help    = ['تخمين']
+plugins/تخمين.js:239:handler.tags    = ['games']
+plugins/تخمين.js:241:export default handler
+plugins/قفل.js:20:handler.help = ['قفل']
+plugins/قفل.js:21:handler.tags = ['group']
+plugins/قفل.js:22:handler.command = /^(قفل|close|lock|اقفل)$/i
+plugins/قفل.js:27:export default handler
+plugins/بوتات.js:65:handler.help    = ['بوتات']
+plugins/بوتات.js:66:handler.tags    = ['group']
+plugins/بوتات.js:67:handler.command = /^(بوتات|bots|الاجهزة|multi)$/i
+plugins/بوتات.js:71:export default handler
+plugins/مانجا.js:421:handler.command = ['مانجا', 'فصول', 'فصل', 'تحميل_فصل', 'zip'];
+plugins/مانجا.js:422:handler.tags = ['anime'];
+plugins/مانجا.js:423:handler.help = ['مانجا <اسم>', 'فصول <رابط>', 'فصل <رابط>', 'تحميل_فصل <رابط>'];
+plugins/مانجا.js:425:export default handler;
+plugins/سكرب.js:50:handler.help = ['سكرب']
+plugins/سكرب.js:51:handler.tags = ['tools']
+plugins/سكرب.js:52:handler.command = /^(سكرب|scrape|موقع)$/i
+plugins/سكرب.js:54:export default handler
+plugins/تاق_الكل.js:107:handler.help    = ["منشن <رسالة>"]
+plugins/تاق_الكل.js:108:handler.tags    = ["group"]
+plugins/تاق_الكل.js:109:handler.command = /^(تاق_الكل|تاقالكل|tagall|تاق|منشن|هيدرا|mentionall)$/i
+plugins/تاق_الكل.js:114:export default handler
+plugins/قسم_الالعاب.js:33:handler.help = ['قسم_الالعاب']
+plugins/قسم_الالعاب.js:34:handler.tags = ['main']
+plugins/قسم_الالعاب.js:35:handler.command = /^(قسم_الالعاب|قسمالالعاب|العاب|games)$/i
+plugins/قسم_الالعاب.js:37:export default handler
+plugins/ريستارت.js:16:handler.command = /^(ريستارت|restart|اعادة_تشغيل)$/i
+plugins/ريستارت.js:17:handler.help    = ['ريستارت']
+plugins/ريستارت.js:18:handler.tags    = ['owner']
+plugins/ريستارت.js:21:export default handler
+plugins/جهاز.js:112:handler.help    = ['جهاز']
+plugins/جهاز.js:113:handler.tags    = ['info']
+plugins/جهاز.js:114:handler.command = /^(جهاز|device|الجهاز)$/i
+plugins/جهاز.js:116:export default handler
+plugins/ستيكر.js:252:handler.help    = ["ستيكر [اسم]"]
+plugins/ستيكر.js:253:handler.tags    = ["sticker"]
+plugins/ستيكر.js:254:handler.command = /^(ستيكر|sticker|s|سـ)$/i
+plugins/ستيكر.js:256:export default handler
+plugins/مارد.js:293:handler.help = ['مارد']
+plugins/مارد.js:294:handler.tags = ['game']
+plugins/مارد.js:295:handler.command = /^(مارد|akinator)$/i
+plugins/مارد.js:297:export default handler
+plugins/قسم_البنك.js:34:handler.help    = ['قسم_البنك']
+plugins/قسم_البنك.js:35:handler.tags    = ['main']
+plugins/قسم_البنك.js:36:handler.command = /^(قسم_البنك|قسمالبنك|قسم_الاقتصاد|economy)$/i
+plugins/قسم_البنك.js:38:export default handler
+plugins/Human ai.js:459:handler.command = false
+plugins/Human ai.js:567:export default handler
+plugins/يومي.js:74:handler.command = /^(يومي|daily|مكافأة_يومية)$/i
+plugins/يومي.js:75:handler.help    = ['يومي']
+plugins/يومي.js:76:handler.tags    = ['economy']
+plugins/يومي.js:78:export default handler
+plugins/حذف.js:40:handler.help    = ['حذف']
+plugins/حذف.js:41:handler.tags    = ['group']
+plugins/حذف.js:42:handler.command = /^(حذف|del|delete|مسح)$/i
+plugins/حذف.js:44:export default handler
+plugins/لوحة.js:63:handler.command = /^(لوحة|leaderboard|ترتيب|top)$/i
+plugins/لوحة.js:64:handler.help    = ['لوحة', 'لوحة coin|exp|level|cmds']
+plugins/لوحة.js:65:handler.tags    = ['economy']
+plugins/لوحة.js:67:export default handler
+plugins/تيك.js:174:handler.help    = ['تيك <رابط>']
+plugins/تيك.js:175:handler.tags    = ['downloader']
+plugins/تيك.js:176:handler.command = /^(تيك|tik|تيكتوك|tiktok|تحميل_تيك)$/i
+plugins/تيك.js:178:export default handler
+plugins/انضم.js:73:handler.help = ['انضم <رابط>']
+plugins/انضم.js:74:handler.tags = ['group']
+plugins/انضم.js:75:handler.command = /^(انضم|join)$/i
+plugins/انضم.js:77:export default handler
+plugins/ytv-dl$.js:122:handler.help    = ['ytv-dl']
+plugins/ytv-dl$.js:123:handler.tags    = ['downloader']
+plugins/ytv-dl$.js:124:handler.command = /^ytv-dl$/i
+plugins/ytv-dl$.js:125:export default handler
+plugins/اديت.js:285:handler.help = ["اديت <اسم شخصية>"]
+plugins/اديت.js:286:handler.tags = ["downloader"]
+plugins/اديت.js:287:handler.command = /^(اديت|edit|اديتات|edits)$/i
+plugins/اديت.js:289:export default handler
+plugins/ترجمه.js:154:handler.help = ['ترجمة']
+plugins/ترجمه.js:155:handler.tags = ['ai']
+plugins/ترجمه.js:156:handler.command = /^(ترجمه|ترجمة|ترجم|translate|tr)$/i
+plugins/ترجمه.js:158:export default handler
+plugins/قسم_المطور.js:39:handler.help = ['قسم_المطور']
+plugins/قسم_المطور.js:40:handler.tags = ['owner']
+plugins/قسم_المطور.js:41:handler.command = /^(قسم_المطور|قسمالمطور|المطور|owner|dev)$/i
+plugins/قسم_المطور.js:44:export default handler
+plugins/رصيد.js:47:handler.command = /^(رصيد|balance|محفظة)$/i
+plugins/رصيد.js:48:handler.help    = ['رصيد', 'رصيد @']
+plugins/رصيد.js:49:handler.tags    = ['economy']
+plugins/رصيد.js:51:export default handler
+plugins/تحميل.js:271:handler.help = ['تحميل', 'نزل']
+plugins/تحميل.js:272:handler.tags = ['downloader']
+plugins/تحميل.js:273:handler.command = /^(تحميل|نزل|حمل|download|dl|فيسبوك|فيس|انستا|انستقرام|ig|fb)$/i
+plugins/تحميل.js:275:export default handler
+plugins/رابط.js:26:handler.help = ['رابط']
+plugins/رابط.js:27:handler.tags = ['group']
+plugins/رابط.js:28:handler.command = /^(رابط|link|لينك)$/i
+plugins/رابط.js:33:export default handler
+plugins/قسم_التحميلات.js:36:handler.help = ['قسم_التحميلات']
+plugins/قسم_التحميلات.js:37:handler.tags = ['main']
+plugins/قسم_التحميلات.js:38:handler.command = /^(قسم_التحميلات|قسمالتحميلات|تحميلات|download|dl)$/i
+plugins/قسم_التحميلات.js:40:export default handler
+plugins/تحويل.js:68:handler.command = /^(تحويل|transfer|حول)$/i
+plugins/تحويل.js:69:handler.help    = ['تحويل @شخص مبلغ']
+plugins/تحويل.js:70:handler.tags    = ['economy']
+plugins/تحويل.js:72:export default handler
+plugins/زراير.js:73:handler.help    = ['زراير']
+plugins/زراير.js:74:handler.tags    = ['main']
+plugins/زراير.js:75:handler.command = /^(زراير|buttons|تواصل|contact)$/i
+plugins/زراير.js:77:export default handler
+plugins/ضد_لينك.js:63:handler.command = /^(ضد_لينك|antilink|ايقاف_ضد_لينك|antilink_off)$/i
+plugins/ضد_لينك.js:64:handler.help    = ['ضد_لينك', 'ايقاف_ضد_لينك']
+plugins/ضد_لينك.js:65:handler.tags    = ['group']
+plugins/ضد_لينك.js:69:export default handler
+plugins/فول_باك.js:97:handler.help    = ["fullbackup"]
+plugins/فول_باك.js:98:handler.tags    = ["owner"]
+plugins/فول_باك.js:99:handler.command = /^(سك|fullbackup|fb|نسخ_كامل)$/i
+plugins/فول_باك.js:102:export default handler
+plugins/اوامر.js:302:handler.help = ['اوامر', 'menu', 'القائمة']
+plugins/اوامر.js:303:handler.tags = ['main']
+plugins/اوامر.js:304:handler.command = /^(اوامر|قائمه|قائمة|menu|help|مساعدة|مينيو|مهام)$/i
+plugins/اوامر.js:306:export default handler
+plugins/قسم_الالقاب.js:34:handler.help    = ['قسم_الالقاب']
+plugins/قسم_الالقاب.js:35:handler.tags    = ['main']
+plugins/قسم_الالقاب.js:36:handler.command = /^(قسم_الالقاب|قسم_الألقاب|قسمالالقاب|titles)$/i
+plugins/قسم_الالقاب.js:38:export default handler
+plugins/قسم_الحماية.js:38:handler.help = ['قسم_الحماية']
+plugins/قسم_الحماية.js:39:handler.tags = ['main']
+plugins/قسم_الحماية.js:40:handler.command = /^(قسم_الحماية|قسمالحماية|protection)$/i
+plugins/قسم_الحماية.js:42:export default handler
+plugins/فتح.js:20:handler.help = ['فتح']
+plugins/فتح.js:21:handler.tags = ['group']
+plugins/فتح.js:22:handler.command = /^(فتح|open|unlock|افتح)$/i
+plugins/فتح.js:27:export default handler
+plugins/self.js:78:handler.help    = ['وضع_المطور', 'وضع_العام', 'وضع']
+plugins/self.js:79:handler.tags    = ['owner']
+plugins/self.js:80:handler.command = ['وضع_المطور', 'selfmode', 'mo', 'self',
+plugins/self.js:84:export default handler
+plugins/تطببق.js:144:handler.command = /^(تطبيق|app)$/i;
+plugins/تطببق.js:145:handler.help = ['تطبيق <اسم>', 'app <name>'];
+plugins/تطببق.js:146:handler.tags = ['downloader'];
+plugins/تطببق.js:150:export default handler;
+plugins/cta_url.js:315:handler.help = ['بنترست <بحث>']
+plugins/cta_url.js:316:handler.tags = ['downloader']
+plugins/cta_url.js:317:handler.command = /^(بنترست|بينترست|بينتر|pin|pinterest)$/i
+plugins/cta_url.js:319:export default handler
+plugins/بلوقن.js:338:handler.help    = ["بلوقن لست", "بلوقن عرض", "بلوقن اضف", "بلوقن نقل", "بلوقن حذف"]
+plugins/بلوقن.js:339:handler.tags    = ["owner"]
+plugins/بلوقن.js:340:handler.command = /^(بلوقن|plugin|plugins)$/i
+plugins/بلوقن.js:343:export default handler
+plugins/صورة.js:89:handler.help    = ['صورة', 'image']
+plugins/صورة.js:90:handler.tags    = ['ai']
+plugins/صورة.js:91:handler.command = /^(صورة|صوره|توليد|imagine|img|imag)$/i
+plugins/صورة.js:93:export default handler
+plugins/بحث.js:78:handler.command = /^(بحث|search|ابحث)$/i
+plugins/بحث.js:79:handler.help    = ['بحث <كلمة>']
+plugins/بحث.js:80:handler.tags    = ['tools']
+plugins/بحث.js:82:export default handler
+plugins/اضف_مطور.js:66:handler.command = /^(اضف_مطور|addowner|مطور)$/i
+plugins/اضف_مطور.js:67:handler.help    = ['اضف_مطور @']
+plugins/اضف_مطور.js:68:handler.tags    = ['owner']
+plugins/اضف_مطور.js:71:export default handler
+plugins/بروفايل.js:244:handler.help = ['بروفايل [@منشن/رد]']
+plugins/بروفايل.js:245:handler.tags = ['tools']
+plugins/بروفايل.js:246:handler.command = /^(بروفايل|بروف|profile|prof|me)$/i
+plugins/بروفايل.js:258:export default handler
+plugins/سؤال.js:132:handler.command = /^(سؤال|question|quiz|تخطي)$/i
+plugins/سؤال.js:133:handler.help    = ['سؤال']
+plugins/سؤال.js:134:handler.tags    = ['games']
+plugins/سؤال.js:136:export default handler
+plugins/اضافة.js:89:handler.help     = ['اضافة <رقم>']
+plugins/اضافة.js:90:handler.tags     = ['group']
+plugins/اضافة.js:91:handler.command  = /^(اضافة|اضافه|add)$/i
+plugins/اضافة.js:96:export default handler
+plugins/toggle-human-ai.js:16:handler.help    = ['يورو_تفعيل']
+plugins/toggle-human-ai.js:17:handler.tags    = ['ai']
+plugins/toggle-human-ai.js:18:handler.command = /^(يورو_تفعيل|human_ai|تفعيل_يورو|yoru_on|يورو_ايقاف|yoru_off)$/i
+plugins/toggle-human-ai.js:21:export default handler
+plugins/حظر_جروب.js:169:handler.command  = /^(حظر_جروب|banchat|فك_حظر_جروب|unbanchat|قائمة_محظورة|listbanned)$/i
+plugins/حظر_جروب.js:170:handler.help     = ['حظر_جروب', 'فك_حظر_جروب', 'قائمة_محظورة']
+plugins/حظر_جروب.js:171:handler.tags     = ['owner']
+plugins/حظر_جروب.js:174:export default handler
+plugins/ترقية.js:50:handler.help     = ['ترقية @']
+plugins/ترقية.js:51:handler.tags     = ['group']
+plugins/ترقية.js:52:handler.command  = /^(ترقية|ترقيه|promote|رفع)$/i
+plugins/ترقية.js:57:export default handler
+plugins/تست.js:39:handler.command = /^(تست|test)$/i
+plugins/تست.js:40:export default handler
+plugins/تحديث.js:88:handler.help = ['تحديث']
+plugins/تحديث.js:89:handler.tags = ['owner']
+plugins/تحديث.js:90:handler.command = /^(تحديث|update|تحديث_يوتيوب|updateytdlp)$/i
+plugins/تحديث.js:93:export default handler
+plugins/debug.js:85:handler.command = /^(debugbtn|تصحيح)$/i
+plugins/debug.js:86:handler.tags = ['owner']
+plugins/debug.js:88:export default handler
+plugins/قسم_المجموعات.js:39:handler.help = ['قسم_المجموعات']
+plugins/قسم_المجموعات.js:40:handler.tags = ['main']
+plugins/قسم_المجموعات.js:41:handler.command = /^(قسم_المجموعات|قسمالمجموعات|مجموعات|groups)$/i
+plugins/قسم_المجموعات.js:43:export default handler
+plugins/ai.js:400:handler.command = /^(امر)$/i
+plugins/ai.js:401:handler.tags = ["misc"]
+plugins/ai.js:402:export default handler`
+plugins/ai.js:631:handler.help    = ["ai <سؤال>"]
+plugins/ai.js:632:handler.tags    = ["ai"]
+plugins/ai.js:633:handler.command = /^(ai|ذكاء|مساعد|اسال|ask|gpt|مس|يورو|yoru|قوين|qwen)$/i
+plugins/ai.js:635:export default handler
+plugins/تقييم.js:98:handler.help    = ['تقييم [كود]']
+plugins/تقييم.js:99:handler.tags    = ['ai']
+plugins/تقييم.js:100:handler.command = /^(تقييم|review|قيم|كود)$/i
+plugins/تقييم.js:102:export default handler
+plugins/بنج.js:43:handler.help    = ["بنج", "ping"]
+plugins/بنج.js:44:handler.tags    = ["info"]
+plugins/بنج.js:45:handler.command = /^(بنج|ping|بينج|pong)$/i
+plugins/بنج.js:47:export default handler
+plugins/عملة.js:76:handler.command = /^(عملة|عمله|currency|coin|تحويل_عملة)$/i
+plugins/عملة.js:77:handler.help    = ['عملة <مبلغ> <من> <إلى>']
+plugins/عملة.js:78:handler.tags    = ['tools']
+plugins/عملة.js:80:export default handler
+plugins/ytv.js:79:handler.help    = ['يوتيوب <اسم أو رابط>']
+plugins/ytv.js:80:handler.tags    = ['downloader']
+plugins/ytv.js:81:handler.command = /^(يوتيوب|فيديو_يوتيوب|ytfideo)$/i
+plugins/ytv.js:82:export default handler
+plugins/سك.js:325:handler.help    = ["fullbackup"]
+plugins/سك.js:326:handler.tags    = ["owner"]
+plugins/سك.js:327:handler.command = /^(سك|fullbackup|fb|نسخ_كامل)$/i
+plugins/سك.js:330:export default handler
+plugins/قسم_الصور.js:34:handler.help    = ['قسم_الصور']
+plugins/قسم_الصور.js:35:handler.tags    = ['main']
+plugins/قسم_الصور.js:36:handler.command = /^(قسم_الصور|قسم_الستيكر|قسمالصور|stickers)$/i
+plugins/قسم_الصور.js:38:export default handler
+plugins/احجيه.js:36:handler.command = /^(احجيه|احجبه|احجية|block)$/i
+plugins/احجيه.js:37:handler.help    = ['احجيه @']
+plugins/احجيه.js:38:handler.tags    = ['owner']
+plugins/احجيه.js:41:export default handler
+plugins/جيبيتي.js:122:handler.help = ['جيبيتي']
+plugins/جيبيتي.js:123:handler.tags = ['ai']
+plugins/جيبيتي.js:124:handler.command = /^(جيبيتي|جي بي تي|gpt|chatgpt|شات)$/i
+plugins/جيبيتي.js:126:export default handler
+plugins/جيميني.js:88:handler.help = ['جيميني']
+plugins/جيميني.js:89:handler.tags = ['ai']
+plugins/جيميني.js:90:handler.command = /^(جيميني|جيمني|جمني|gemini)$/i
+plugins/جيميني.js:92:export default handler
+plugins/تنزيل.js:50:handler.help     = ['تنزيل @']
+plugins/تنزيل.js:51:handler.tags     = ['group']
+plugins/تنزيل.js:52:handler.command  = /^(تنزيل|تنزل|demote)$/i
+plugins/تنزيل.js:57:export default handler
+plugins/ولفرام.js:101:handler.help = ['ولفرام <سؤال>']
+plugins/ولفرام.js:102:handler.tags = ['tools']
+plugins/ولفرام.js:103:handler.command = /^(ولفرام|wolfram|حساب|calc|math)$/i
+plugins/ولفرام.js:105:export default handler
+plugins/كشف.js:276:handler.help    = ['كشف']
+plugins/كشف.js:277:handler.tags    = ['tools']
+plugins/كشف.js:278:handler.command = /^(كشف|فضح|vv|viewonce|vo)$/i
+plugins/كشف.js:280:export default handler
+plugins/quick_reply.js:426:handler.help = ['ازرار <نوع>']
+plugins/quick_reply.js:427:handler.tags = ['tools']
+plugins/quick_reply.js:428:handler.command = /^(ازرار|أزرار|buttons|btn)$/i
+plugins/quick_reply.js:439:export default handler
+plugins/تعديل_الوصف.js:25:handler.help = ['تعديل_الوصف <وصف>']
+plugins/تعديل_الوصف.js:26:handler.tags = ['group']
+plugins/تعديل_الوصف.js:27:handler.command = /^(تعديل_الوصف|تعديلالوصف|setdesc|وصف)$/i
+plugins/تعديل_الوصف.js:32:export default handler
+plugins/مضاد_البوتات.js:143:handler.command = /^(مضاد_البوتات|antibot|نوبوت|مضاد)$/i;
+plugins/مضاد_البوتات.js:144:handler.tags = ['group'];
+plugins/مضاد_البوتات.js:147:export default handler;
+plugins/مطور.js:58:handler.help    = ['مطور']
+plugins/مطور.js:59:handler.tags    = ['main']
+plugins/مطور.js:60:handler.command = /^(مطور|owner|creator|المطور|مطوري|مطورك)$/i
+plugins/مطور.js:62:export default handler
+plugins/طرد.js:45:handler.help = ['طرد @']
+plugins/طرد.js:46:handler.tags = ['group']
+plugins/طرد.js:47:handler.command = /^(طرد|kick|remove|اطرد)$/i
+plugins/طرد.js:52:export default handler
+plugins/اعضاء.js:48:handler.help = ['اعضاء']
+plugins/اعضاء.js:49:handler.tags = ['group']
+plugins/اعضاء.js:50:handler.command = /^(اعضاء|اعضا|members|listmembers)$/i
+plugins/اعضاء.js:53:export default handler
+plugins/soundcloud.js:353:handler.help = ['ساوند <اسم الأغنية>']
+plugins/soundcloud.js:354:handler.tags = ['downloader']
+plugins/soundcloud.js:355:handler.command = /^(soundcloud|ساوند|اغنية|sound|sc)$/i
+plugins/soundcloud.js:357:export default handler
+plugins/احكي.js:38:handler.command = /^(احكي|voice|تكلم)$/i
+plugins/احكي.js:39:handler.help    = ['احكي <نص>']
+plugins/احكي.js:40:handler.tags    = ['ai']
+plugins/احكي.js:131:export default handler
+plugins/حظ.js:60:handler.command = /^(حظ|luck|حظي)$/i
+plugins/حظ.js:61:handler.help    = ['حظ']
+plugins/حظ.js:62:handler.tags    = ['games']
+plugins/حظ.js:64:export default handler
+plugins/رقم.js:73:handler.command = /^(رقم|randnum|random_number)$/i
+plugins/رقم.js:74:handler.help    = ['رقم', 'رقم <اسم الدولة>']
+plugins/رقم.js:75:handler.tags    = ['tools']
+plugins/رقم.js:77:export default handler
+plugins/نرد.js:33:handler.command = /^(نرد|dice|زهر)$/i
+plugins/نرد.js:34:handler.help    = ['نرد']
+plugins/نرد.js:35:handler.tags    = ['games']
+plugins/نرد.js:37:export default handler
+plugins/قسم_الذكاء.js:32:handler.help = ['قسم_الذكاء']
+plugins/قسم_الذكاء.js:33:handler.tags = ['main']
+plugins/قسم_الذكاء.js:34:handler.command = /^(قسم_الذكاء|قسمالذكاء|ذكاء|i)$/i
+plugins/قسم_الذكاء.js:36:export default handler
+plugins/jadbots.js:72:handler.command = /^(jadibot|serbot|rentbot|تنصيب)$/i
+plugins/jadbots.js:73:export default handler
+plugins/حقوق.js:53:handler.help = ['حقوق <packname>|<author>']
+plugins/حقوق.js:54:handler.tags = ['sticker']
+plugins/حقوق.js:55:handler.command = /^(حقوق|wm)$/i
+plugins/حقوق.js:57:export default handler
+plugins/كلود.js:87:handler.help = ['كلود']
+plugins/كلود.js:88:handler.tags = ['ai']
+plugins/كلود.js:89:handler.command = /^(كلود|كلاود|claude)$/i
+plugins/كلود.js:91:export default handler
+plugins/فن.js:151:handler.help    = ['فن [أستايل] [وصف]']
+plugins/فن.js:152:handler.tags    = ['ai']
+plugins/فن.js:153:handler.command = /^(فن|art|رسم|draw)$/i
+plugins/فن.js:155:export default handler
+plugins/اطلع.js:39:handler.help = ['اطلع']
+plugins/اطلع.js:40:handler.tags = ['owner']
+plugins/اطلع.js:41:handler.command = /^(اطلع|غادر|leave|exit)$/i
+plugins/اطلع.js:45:export default handler
+plugins/كلمة.js:104:handler.command = /^(كلمة|word|فك_الكلمة)$/i
+plugins/كلمة.js:105:handler.help    = ['كلمة']
+plugins/كلمة.js:106:handler.tags    = ['games']
+plugins/كلمة.js:108:export default handler
+plugins/manga-read.js:429:handler.help = ['اقرا <slug>::<ch>', 'pdf_فصل <slug>::<ch>']
+plugins/manga-read.js:430:handler.tags = ['anime']
+plugins/manga-read.js:431:handler.command = /^(اقرا|اقرأ|read|pdf_فصل|pdf_chapter|pdfch)$/i
+plugins/manga-read.js:433:export default handler
+plugins/عين$.js:105:handler.help    = ['عين']
+plugins/عين$.js:106:handler.tags    = ['games']
+plugins/عين$.js:107:handler.command = /^عين$/i
+plugins/عين$.js:109:export default handler
+plugins/اعادة_الرابط.js:24:handler.help = ['اعادة_الرابط']
+plugins/اعادة_الرابط.js:25:handler.tags = ['group']
+plugins/اعادة_الرابط.js:26:handler.command = /^(اعادة_الرابط|اعادةالرابط|resetlink|رابط_جديد)$/i
+plugins/اعادة_الرابط.js:31:export default handler
+plugins/manga-chapters.js:92:handler.command = ['مانجاتك'];
+plugins/manga-chapters.js:93:export default handler;

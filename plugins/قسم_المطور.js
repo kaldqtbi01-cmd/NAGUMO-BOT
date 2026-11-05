@@ -3,7 +3,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     try { await conn.sendMessage(m.chat, { react: { text: emoji, key: m.key } }) } catch {}
   }
 
-  const botName = global.botName || '𝐂𝐇𝐄𝐎𝐍 𝐁𝐎𝐓'
+  const botName = global.botName || '𝐅𝐋𝐎𝐍𝐀 𝐁𝐎𝐓'
 
   const menuText = '~*『✦▬▬▬✦┇• 🪻 •┇✦▬▬▬✦』*~\n' +
     '║     🪻 قسم المطور 🪻     ║\n' +
